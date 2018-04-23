@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="SecuredExportExample" Logo="ExpressAppLogo">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="11.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="ExtendedSecurityRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="9" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="ExtendedSecurityRole" RelativeSize="100" Caption="Can Export" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="Name" ViewItem="Name" Index="0" RelativeSize="47" IsNewNode="True" />
+              <LayoutItem Id="CanExport" Index="1" RelativeSize="45" ViewItem="CanExport" Removed="True" />
+              <LayoutGroup Id="ded7f4f4-38a8-49aa-98e4-9b6f6a40b1ec" ShowCaption="False" Caption="ded7f4f4-38a8-49aa-98e4-9b6f6a40b1ec(5)" Direction="Horizontal" Index="1" RelativeSize="52" IsNewNode="True">
+                <LayoutItem Id="CanEditModel" ViewItem="CanEditModel" Index="0" RelativeSize="28" IsNewNode="True" />
+                <LayoutItem Id="CanExport" ViewItem="CanExport" Index="1" RelativeSize="71" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SecurityRole" RelativeSize="75" ImageName="" Direction="Horizontal" Caption="Can Edit Model" Removed="True">
+              <LayoutItem Id="CanEditModel" ViewItem="CanEditModel" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SecurityStrategyRole" Direction="Horizontal" RelativeSize="63" Caption="Name" ImageName="" Removed="True">
+              <LayoutItem Id="Name" ViewItem="Name" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="1" RelativeSize="90" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Permissions" RelativeSize="100" ImageName="Action_Grant">
+              <LayoutItem Id="Permissions" RelativeSize="100" ViewItem="Permissions" />
+            </LayoutGroup>
+            <LayoutGroup Id="Users" RelativeSize="100" ImageName="BO_Unknown">
+              <LayoutItem Id="Users" RelativeSize="100" ViewItem="Users" />
+            </LayoutGroup>
+            <LayoutGroup Id="PersistentPermissions" RelativeSize="100" ImageName="Action_Grant" Removed="True">
+              <LayoutItem Id="PersistentPermissions" RelativeSize="100" ViewItem="PersistentPermissions" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,22 @@
+﻿Imports Microsoft.VisualBasic
+Imports System
+Imports System.Collections.Generic
+Imports System.Text
+Imports DevExpress.ExpressApp
+Imports DevExpress.ExpressApp.SystemModule
+Imports SecuredExportExample.Module.SecurityObjects
+
+Namespace SecuredExportExample.Module.Controllers
+    Public Class SecuredExportController
+        Inherits ViewController
+        Protected Overrides Overloads Sub OnActivated()
+            MyBase.OnActivated()
+            Dim controller As ExportController = Frame.GetController(Of ExportController)()
+            AddHandler controller.ExportAction.Executing, AddressOf ExportAction_Executing
+            controller.Active.SetItemValue("Security", SecuritySystem.IsGranted(New ExportPermissionRequest()))
+        End Sub
+        Private Sub ExportAction_Executing(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs)
+            SecuritySystem.Demand(New ExportPermissionRequest())
+        End Sub
+    End Class
+End Namespace
