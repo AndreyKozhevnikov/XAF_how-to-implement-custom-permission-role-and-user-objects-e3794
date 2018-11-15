@@ -1,3 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Program.cs](./CS/SecuredExportExample.MiddleTierSecurityServer/Program.cs) (VB: [Program.vb](./VB/SecuredExportExample.MiddleTierSecurityServer/Program.vb))
+* [Employee.cs](./CS/SecuredExportExample.Module/BusinessObjects/Employee.cs) (VB: [Employee.vb](./VB/SecuredExportExample.Module/BusinessObjects/Employee.vb))
+* [SecuredExportController.cs](./CS/SecuredExportExample.Module/Controllers/SecuredExportController.cs) (VB: [SecuredExportController.vb](./VB/SecuredExportExample.Module/Controllers/SecuredExportController.vb))
+* [Updater.cs](./CS/SecuredExportExample.Module/DatabaseUpdate/Updater.cs) (VB: [Updater.vb](./VB/SecuredExportExample.Module/DatabaseUpdate/Updater.vb))
+* [ExportPermission.cs](./CS/SecuredExportExample.Module/SecurityObjects/ExportPermission.cs)
+* **[ExtendedSecurityRole.cs](./CS/SecuredExportExample.Module/SecurityObjects/ExtendedSecurityRole.cs)**
+* [Global.asax.cs](./CS/SecuredExportExample.Web/Global.asax.cs) (VB: [Global.asax.vb](./VB/SecuredExportExample.Web/Global.asax.vb))
+* [Program.cs](./CS/SecuredExportExample.Win.MiddleTierSecurityClient/Program.cs) (VB: [Program.vb](./VB/SecuredExportExample.Win.MiddleTierSecurityClient/Program.vb))
+* [Program.cs](./CS/SecuredExportExample.Win/Program.cs) (VB: [Program.vb](./VB/SecuredExportExample.Win/Program.vb))
+<!-- default file list end -->
 # How to: Implement Custom Permission, Role and User Objects
 
 
