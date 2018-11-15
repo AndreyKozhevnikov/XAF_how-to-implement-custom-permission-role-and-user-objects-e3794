@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Employee.cs](./CS/SecuredExportExample.Module/BusinessObjects/Employee.cs) (VB: [Employee.vb](./VB/SecuredExportExample.Module/BusinessObjects/Employee.vb))
+* [SecuredExportController.cs](./CS/SecuredExportExample.Module/Controllers/SecuredExportController.cs) (VB: [SecuredExportController.vb](./VB/SecuredExportExample.Module/Controllers/SecuredExportController.vb))
+* [Updater.cs](./CS/SecuredExportExample.Module/DatabaseUpdate/Updater.cs) (VB: [Updater.vb](./VB/SecuredExportExample.Module/DatabaseUpdate/Updater.vb))
+* [Module.cs](./CS/SecuredExportExample.Module/Module.cs) (VB: [Module.vb](./VB/SecuredExportExample.Module/Module.vb))
+* [ExportPermission.cs](./CS/SecuredExportExample.Module/SecurityObjects/ExportPermission.cs) (VB: [ExportPermission.vb](./VB/SecuredExportExample.Module/SecurityObjects/ExportPermission.vb))
+* [ExportPermissionData.cs](./CS/SecuredExportExample.Module/SecurityObjects/ExportPermissionData.cs) (VB: [ExportPermissionData.vb](./VB/SecuredExportExample.Module/SecurityObjects/ExportPermissionData.vb))
+* [ExtendedSecurityRole.cs](./CS/SecuredExportExample.Module/SecurityObjects/ExtendedSecurityRole.cs) (VB: [ExtendedSecurityRole.vb](./VB/SecuredExportExample.Module/SecurityObjects/ExtendedSecurityRole.vb))
+<!-- default file list end -->
 # How to: Implement Custom Permission, Role and User Objects
 
 
